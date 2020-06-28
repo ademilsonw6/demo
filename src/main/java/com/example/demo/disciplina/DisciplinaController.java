@@ -24,6 +24,7 @@ public class DisciplinaController {
         this.disciplinaService.delete(disciplina);
     }
 
+
     @PostMapping
     public Disciplina create (@RequestBody Disciplina disciplina){
         log.info("Cadastrando Disciplina {}", disciplina);
